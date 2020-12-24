@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\lazy_actions]
-@="Executar do Lazy Aqui..."
-"Icon"=C:\\Program Files\\Lazy\\app.ico"
-
-[HKEY_CLASSES_ROOT\Directory\Background\shell\lazy_actions\command]
-@="\"C:\\Program Files\\Lazy\\actions.exe\" \"%v.\""
