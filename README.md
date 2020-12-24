@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://ant.design">
-    <img width="300" src="./resources/imagens/prototype-001.png">
+    <img width="400" src="./resources/imagens/prototype-001.png">
   </a>
 </p>
 
@@ -14,8 +14,10 @@ This project illustrates an example of optimization, using the python language f
 
 ## Demostration
 
-![prototype-001](./resources/imagens/prototype-001.png) 
-![prototype-002](./resources/imagens/prototype-002.png)
+
+<img width="500" src="./resources/imagens/prototype-001.png">
+<img width="400" src="./resources/imagens/prototype-002.png">
+
 
 ## Training Scope
 
@@ -50,16 +52,18 @@ To run a python project, run the commands below:
 ``
 python "your_file.py"
 ``
+
 The "python" command will run your program in the terminal.
 
 
 To start the project, perform some necessary dependencies below:
 
-``
+```
 pip3 install configparser
 pip3 install pathvalidate
 pip3 install pyinstaller
-``
+```
+
 The "pip3" command will download the dependency you requested.
 
 to download your program's .exe file, run this command here:
@@ -72,7 +76,7 @@ pyinstaller --onefile --icon="name_of_icon.ico" "name_of_file.py"
 
 create a file "name_of_file.reg" and add this to it with the path of your executable so that it adds a shortcut on the right windows button:
 
-``
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\"name_of_project"]
@@ -81,7 +85,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\"name_of_project"\command]
 @="\"C:\\Program Files\\"name_of_project"\\"name_of_executable.exe"\" \"%v.\""
-``
+```
 
 ## Project structure
 
@@ -95,7 +99,7 @@ Do not forget to upload the .json files and their file models to a server, for t
 
 - My model json 
 
-``
+```
 [
   {
     "type": "Web development",
@@ -153,7 +157,7 @@ Do not forget to upload the .json files and their file models to a server, for t
     }
   }
 ]
-``
+```
 
 
 ## Features
